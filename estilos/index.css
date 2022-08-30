@@ -1,0 +1,75 @@
+.header{
+    background-color: #ede6ff;
+    width: 100%;
+}
+
+#logo{
+    height: 50px;
+}
+
+#name{
+    float: right;
+    font-size: 20px; 
+    margin-right: 10px;
+    margin-top: 15px;
+    font-family: "Miriam Libre";
+    color: blue;
+}
+
+#avatar{
+    float:right;
+    height: 50px;
+    border-radius:25px; 
+    /*el border-radius redondea la imagen*/
+}
+
+#central{
+    display:inline-block;
+    width: 70%;
+    float: left;
+}
+
+#lateral {
+
+    display: inline-block;
+    float: right;
+    width: 29%;
+}
+
+#barra1{
+    margin-top: 20px;
+    text-align: end;
+    width: 100%;
+    background-color:aquamarine;
+    border-radius: 10px;
+}
+
+a.boton:link,a.boton:visited{
+
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    background-color: firebrick;
+    color: white;
+    margin: 10px;
+    padding:10px 40px;
+    border-radius: 20px;
+ 
+
+}
+
+a.boton:hover,a.boton:active{
+
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    margin: 10px;
+    padding:10px 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+    transform:translate(-5,-5);
+    
+
+}
